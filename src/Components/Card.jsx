@@ -1,7 +1,7 @@
 import React from "react";
 
-const Card = () => {
-  return <div>Hola, soy una tarjeta</div>;
+const Card = ({estudiante}) => {
+  return <div>Hola {estudiante.nombre}, pronto iniciara tu carrera de {estudiante.carrera}</div>;
 };
 
 export default Card;
